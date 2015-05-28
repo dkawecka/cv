@@ -46,8 +46,15 @@ time, mark, audio, video {
 
 body {
         font-family: 'Merriweather', serif;
-        font-size: 18px;
+        font-size: 16px;
       }
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
 h1 {
   font-size: 30px;
 }
@@ -57,26 +64,21 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
+  margin-top: 10px;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+
+
+h1, h3, {
+  margin-bottom: 10px;
 }
 
-ol, ul {
-  list-style: none;
+.million 
+{
+  font-size: 12px; 
+  font-style: italic;
+  color: teal;
+  margin-top: 20%;
 }
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+
