@@ -37,17 +37,15 @@ time, mark, audio, video {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.container {
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
   margin: 0 auto;
   padding-left: 60px;
   padding-right: 60px;
   width: 960px;
 }
-
-body {
-        font-family: 'Merriweather', serif;
-        font-size: 16px;
-      }
 
 footer {
   clear: both;
@@ -77,6 +75,17 @@ h1, h3, {
   margin-bottom: 10px;
 }
 
+.photo {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+.resume {
+  margin-bottom: 100px;
+  color: rgb(160, 24, 189);
+}
+
 .dates {
   float: left;
   width: 20%;
@@ -87,8 +96,7 @@ h1, h3, {
   width: 80%;
 }
 
-.million
-{
+.million {
   font-size: 12px;
   font-style: italic;
   color: teal;
