@@ -60,6 +60,7 @@ footer {
 
 h1 {
   font-size: 30px;
+  font-variant: small-caps;
 }
 
 h2 {
@@ -68,7 +69,14 @@ h2 {
 
 h3 {
   font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  border: 2px solid rgb(160, 24, 189);
+  border-radius: 10px;
+  width: auto;
 }
 
 h1, h3, {
@@ -82,8 +90,11 @@ h1, h3, {
 }
 
 .resume {
-  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   color: rgb(160, 24, 189);
+  line-height: 20px;
+  display: inline-block;
 }
 
 .dates {
@@ -94,6 +105,7 @@ h1, h3, {
 .experience {
   float: right;
   width: 80%;
+  line-height: 24px;
 }
 
 .million {
