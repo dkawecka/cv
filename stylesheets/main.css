@@ -66,6 +66,8 @@ h1 {
 h2 {
   font-size: 25px;
   color: rgb(47, 77, 176);
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -75,7 +77,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px;
-  border: 2px solid rgb(138, 35, 160);
   border-radius: 10px;
   width: auto;
 }
@@ -88,32 +89,32 @@ h3 {
   display: inline-block;
 }
 
-a {
-  font-size: 14px;
-  color: rgb(87, 119, 221);
-  text-decoration: none;
-  padding: 0px 3px;
-}
-
-.experience h3 {
-  border: 2px solid rgb(12, 126, 136)
-}
-
 .photo {
   width: 200px;
   height: 200px;
   float: right;
+  margin: 20px;
 }
 
 .resume {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: rgb(138, 35, 160);
-  line-height: 20px;
+  line-height: 25px;
+}
+
+.resume h3 {
+  border: 2px solid rgb(138, 35, 160);
 }
 
 .experience {
   color: rgb(12, 126, 136);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.experience h3 {
+  border: 2px solid rgb(12, 126, 136)
 }
 
 .dates {
@@ -129,10 +130,19 @@ a {
   color: rgb(12, 126, 136);
 }
 
-.million {
-  font-size: 12px;
-  font-style: italic;
-  color: teal;
-  margin-top: 20%;
+.contact {
+  color: rgb(83, 104, 174);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.contact h3 {
+  border: 2px solid rgb(83, 104, 174)
+}
+
+a {
+  font-size: 14px;
+  color: rgb(83, 104, 174);
+  text-decoration: none;
+  padding: 0px 3px;
+}
