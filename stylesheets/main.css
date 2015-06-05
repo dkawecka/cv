@@ -105,8 +105,11 @@ h3 {
   float: right;
 }
 
-.resume-text {
+.resume {
   color: rgb(138, 35, 160);
+}
+
+.resume-text {
   line-height: 25px;
 }
 
@@ -152,11 +155,20 @@ h3 {
 .contact {
   color: rgb(83, 104, 174);
   padding-top: 10px;
-  padding-bottom: 3 0px;
+  padding-bottom: 30px;
+}
+
+.contact li {
+  list-style-type: none;
+  padding-bottom: 5px;
 }
 
 .contact h3 {
   border: 2px solid rgb(83, 104, 174)
+}
+
+i {
+  width: 20px;
 }
 
 a {
