@@ -89,21 +89,31 @@ h3 {
   display: inline-block;
 }
 
-.photo {
+.resume-section {
+  float: left;
+  width: 75%;
+}
+
+.photo-section {
+  float: right;
+  width: 25%;
+}
+
+.photo-image {
   width: 200px;
   height: 200px;
   float: right;
   margin: 20px;
 }
 
-.resume {
+.resume-text {
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgb(138, 35, 160);
   line-height: 25px;
 }
 
-.resume h3 {
+.resume-text h3 {
   border: 2px solid rgb(138, 35, 160);
 }
 
@@ -133,7 +143,7 @@ h3 {
 .contact {
   color: rgb(83, 104, 174);
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 3 0px;
 }
 
 .contact h3 {
