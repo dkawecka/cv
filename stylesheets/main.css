@@ -80,6 +80,10 @@ h3 {
   width: auto;
 }
 
+h4 {
+  font-size: 100%;
+}
+
 h1, h3, {
   margin-bottom: 10px;
 }
@@ -146,8 +150,48 @@ h3 {
 .description {
   float: right;
   width: 80%;
-  line-height: 24px;
+  line-height: 25px;
   color: rgb(12, 126, 136);
+}
+
+.skills:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.skills {
+  color: rgb(203, 63, 159);
+  padding-top: 10px;
+}
+
+.skills h3 {
+  border: 2px solid rgb(203, 63, 159);
+  box-shadow: 5px 5px 5px rgba(203, 63, 159, 0.75);
+}
+
+.skills span {
+  display: inline-block;
+  line-height: 15px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.skills div {
+  line-height: 25px;
+}
+
+.skills h4 {
+  display: inline-block;
+  line-height: 15px;
+  width: 90px
+}
+
+.dot-full {
+  background: black;
 }
 
 .contact {
