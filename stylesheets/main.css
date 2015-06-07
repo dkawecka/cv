@@ -81,6 +81,12 @@ h3 {
 }
 
 h4 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+h5 {
   font-size: 100%;
 }
 
@@ -91,6 +97,13 @@ h1, h3, {
 h3 {
   display: inline-block;
 }
+
+/*
+  ========================================
+  CV content
+  ========================================
+*/
+
 
 .resume {
   color: rgb(138, 35, 160);
@@ -163,11 +176,22 @@ h3 {
 .skills {
   color: rgb(203, 63, 159);
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .skills h3 {
   border: 2px solid rgb(203, 63, 159);
   box-shadow: 5px 5px 5px rgba(203, 63, 159, 0.75);
+}
+
+.skills div {
+  line-height: 25px;
+}
+
+.skills h5 {
+  display: inline-block;
+  line-height: 15px;
+  width: 90px
 }
 
 .skills span {
@@ -180,19 +204,55 @@ h3 {
   margin: 0 5px;
 }
 
-.skills div {
-  line-height: 25px;
-}
-
-.skills h4 {
-  display: inline-block;
-  line-height: 15px;
-  width: 90px
-}
-
 .dot-full {
   background: black;
 }
+
+.development {
+  height: 30px;
+  line-height: 30px;
+}
+
+.development h5 {
+  display: inline-block;
+  line-height: 30px;
+  width: 90px
+}
+
+.progress-bar {
+  display: inline-block;
+  line-height: 50px;
+  width: 40px;
+  border: 3px solid black;
+  background: black;
+  margin: 0 5px;
+}
+
+.development span {
+  display: inline-block;
+  line-height: 50px;
+  width: 40px;
+  border: 3px solid black;
+  background: black;
+  margin: 0 5px;
+}
+
+/* Progress circles
+
+.development span {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.dot-progress0.25
+
+*/
+
 
 .contact {
   color: rgb(83, 104, 174);
